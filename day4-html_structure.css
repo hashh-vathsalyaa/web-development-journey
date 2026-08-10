@@ -1,0 +1,18 @@
+<style>
+    p{
+       font-family: Montserrat; 
+    }
+    .heading{
+        font-weight: bold;
+        font-family: Montserrat;
+        text-align: center;
+        font-size: 50px;
+        margin-bottom:0px;
+    }
+
+    .caption{
+        font-family: Montserrat;
+        text-align: center;
+        font-size: 23px;
+    }
+</style>
