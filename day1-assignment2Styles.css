@@ -1,0 +1,24 @@
+
+    .price{
+        color:green;
+        font-weight:bolder;
+    }
+
+    .button1{
+        background-color:rgb(255,216,20);
+        border: none;
+        height: 30px;
+        width:115px;
+        border-radius:25px;
+        font-weight: lighter;
+        cursor:pointer;
+    }
+
+    .button2{
+        background-color: rgb(221, 143, 16);
+        border:none;
+        height: 30px;
+        width: 100px;
+        border-radius: 15px;
+        cursor: pointer;
+    }
