@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Display Block</title>
+        <style>
+            .textBox1 {
+                display:block;
+                margin-bottom:5px;
+            }
+            .textBox2 {
+                margin-bottom: 10px;
+                display:block;
+            }
+            .para{
+                width:210px;
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            .yes, .no {
+                background-color: rgb(216, 213, 213);
+                border: 1px solid grey;
+                border-radius: 2px;
+            }
+
+            .google {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 300px;;
+                margin-bottom: 8px;
+            }
+
+            .search {
+                display: block;
+                border:none;
+                height: 40px;
+                padding-top: 5px;
+                padding-bottom: 6px;
+                padding-left: 20px;
+                border-radius: 5px;
+                font-size: 9px;
+                border-radius:120px;
+                box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.15);
+                font-size:large;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 30px;
+                width: 900px;
+            }
+
+            .first, .last {
+                border: 1px solid lightgrey;
+                padding: 7px 9px;
+                width: 95px;
+                border-radius: 6px;
+                margin-bottom:10px;
+                margin-right: 5px;
+            }
+            .email {
+                display:block;
+                border: 1px solid lightgrey;
+                padding: 7px 9px;
+                width: 219px;
+                border-radius: 6px;
+                margin-bottom:10px;
+            }
+
+            .btn {
+                display: block;
+                border: none;
+                width:239px;
+                background-color: rgb(18, 18, 254);
+                color: white;
+                font-weight: bold;
+                padding-top:8px;
+                padding-bottom:8px;
+                border-radius:6px;
+                margin-bottom: 20px;;
+            }
+
+            .title {
+                display:block;
+                font-family: Arial;
+                font-size: xx-large;
+                margin-bottom:20px;
+            }
+
+            .input1, .input2 {
+                border: none;
+                background-color: rgb(223, 221, 221);
+                padding: 9px 15px;
+                display: block;
+                margin-bottom: 7px;
+                color: rgb(78, 73, 73);
+                width: 300px;
+            }
+
+            .request {
+                margin-top: 20px;
+                background-color: black;
+                color: white;
+                padding: 9px 15px;
+                border:none;
+                margin-right: 10px;
+            }
+
+            .Schedule{
+                margin-top: 20px;
+                background-color:rgb(223, 221, 221);
+                color: white;
+                padding: 9px 15px;
+                border:none;
+                margin-right: 10px;
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <input class="textBox1" type="text" placeholder="Name">
+        <input class="textBox2" type="text" placeholder="Email">
+        <p class="para"> Thanks for chatting with our customer support. Would you like to take our quick survey?</p>
+        <button class="yes">Yes</button>
+        <button class="no">No</button>
+        <img class ="google" src="google.png">
+        <input class="search" type="text" placeholder="Search Google or type a URL">
+        <input class="first" type="text" placeholder="First name">
+        <input class="last" type="text" placeholder="Last name">
+        <input class="email" type="email" placeholder="Email">
+        <button class="btn"> Sign Up </button>
+        <p class="title"> Request a ride now</p>
+        <input class="input1" type="text" placeholder="Enter pickup location">
+        <input class="input2" type="text" placeholder="Enter destination">
+        <button class="request"> Request now</button>
+        <button class="Schedule"> Schedule for later</button>
+    </body>
+</html>
