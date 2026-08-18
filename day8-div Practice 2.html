@@ -19,66 +19,63 @@
                 border-radius: 25px;
             }
 
-            .commentBox {
-                border: none;
-                font-size: 15px;
-                width: 200px;
-                vertical-align: middle;
-                margin-left: 10px;
-                margin-right: 10px;
-            }
+        .commentBox {
+            border: none;
+            font-size: 15px;
+            width: 200px;
+            vertical-align: middle;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
 
-            .tweet{
-                background-color: rgb(16, 158, 219);
-                color: white;
-                border: none;
-                font-weight: bold;
-                padding: 8px 15px;
-                border-radius: 20px;
-                vertical-align: middle;
-                cursor: pointer;
-            }
-            .image3 {
-                width: 200px;
-                height: 200px;
-                object-fit: cover;
-                margin-bottom: 0px;
-            }
-            .box2{
-                width: 200
-                px;
-                box-shadow: 0 0 5px 3px rgba(0,0,0,0.2);
-                display:inline-block;
-                margin-right:10px;
-            }
+        .tweet{
+            background-color: rgb(16, 158, 219);
+            color: white;
+            border: none;
+            font-weight: bold;
+            padding: 8px 15px;
+            border-radius: 20px;
+            vertical-align: middle;
+            cursor: pointer;
+        }
+
+        .image3 {
+            width:100%;
+            height: 160px;
+            object-fit: cover;
+            object-position: middle;
+        }
+        .box2{
+            box-shadow: 0 0 5px 3px rgba(0,0,0,0.2);
+        }
         
-            .name {
-                margin-top: 5px;
-                margin-left: 6px;
-                margin-bottom: 2px;
-                font-weight: bolder;
-                font-size: larger;
-            }
-            p {
-                font-family: arial;
-            }
-            .cap {
-                color:rgb(71, 70, 70);
-                margin-top: 2px;
-                margin-left: 6px;
-                margin-bottom: 5px;
-            }
-            .btn {
-                background-color: rgb(51, 120, 223);
-                border: none;
-                color: white;
-                font-weight: lighter;
-                padding: 7px 10px;
-                margin-top: 3px;
-                margin-left: 6px;
-                margin-bottom: 10px;
-                border-radius: 3px;
-            }
+        .name {
+            margin-top: 5px;
+            margin-left: 6px;
+            margin-bottom: 2px;
+            font-weight: bolder;
+            font-size: larger;
+        }
+        p {
+            font-family: arial;
+        }
+        .cap {
+            color:rgb(71, 70, 70);
+            margin-top: 2px;
+            margin-left: 6px;
+            margin-bottom: 5px;
+        }
+        .btn {
+            background-color: rgb(51, 120, 223);
+            border: none;
+            color: white;
+            font-weight: lighter;
+            padding: 7px 10px;
+            margin-top: 3px;
+            margin-left: 6px;
+            margin-bottom: 10px;
+            border-radius: 3px;
+        }
 
     </style>
 </head>
@@ -88,6 +85,11 @@
         <input class="commentBox" type="text" placeholder="What's happening?">
         <button class="tweet"> Tweet</button>
     </div>
+    <div style="
+        display:grid;
+        grid-template-columns: 200px 200px 200px;
+        
+        column-gap: 10px;">
     <div class="box2">
         <img class="image3" src="cheetah.avif">
         <p class="name">Oliver</p>
@@ -108,6 +110,7 @@
         <p class="cap">2 mutual friends</p>
         <button class="btn">Add Friend</button>
     </div>
-    
+</div>
+
 </body>
 </html>
